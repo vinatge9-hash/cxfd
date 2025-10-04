@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Niyantri Cafe - Contact Us</title>
+  <meta name="description" content="Get in touch with Niyantri Cafe for questions, catering, or events.">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-[Open Sans] bg-white text-gray-800">
+  <nav class="bg-[#3C2415] text-white sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <a href="index.html" class="flex items-center text-2xl font-bold font-[Montserrat]">Niyantri Cafe</a>
+        <div class="hidden md:flex space-x-6">
+          <a href="index.html" class="hover:text-yellow-300">Home</a>
+          <a href="about.html" class="hover:text-yellow-300">About Us</a>
+          <a href="menu.html" class="hover:text-yellow-300">Menu</a>
+          <a href="checkout.html" class="hover:text-yellow-300">Checkout</a>
+          <a href="contact.html" class="hover:text-yellow-300">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="relative min-h-screen bg-cover bg-center" style="background-image: url('https://pixabay.com/get/g7f65443129f5f54826d311eb5009b25c103b016436e309f96f545d08b5b71336f8bc3f97da8f68e19283580167c198dc_640.jpg');">
+    <div class="absolute inset-0 bg-black opacity-60"></div>
+    <div class="relative z-10 flex items-center justify-center min-h-screen">
+      <div class="text-center text-white px-4">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4 font-[Montserrat]">Contact Us</h1>
+        <p class="text-xl md:text-2xl mb-6 max-w-2xl mx-auto font-[Open Sans]">Have a question or want to chat about catering? We'd love to hear from you.</p>
+      </div>
+    </div>
+  </section>
+
+  <main class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+      <form class="space-y-4">
+        <div>
+          <label class="block text-sm font-medium mb-1">Your Name</label>
+          <input class="w-full border border-gray-300 rounded-md p-2" placeholder="Alex Doe" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1">Email</label>
+          <input type="email" class="w-full border border-gray-300 rounded-md p-2" placeholder="alex@example.com" />
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-1">Message</label>
+          <textarea class="w-full border border-gray-300 rounded-md p-2" rows="5" placeholder="How can we help?"></textarea>
+        </div>
+        <button type="submit" class="bg-[#D2B48C] px-6 py-3 rounded-md font-semibold">Send Message</button>
+      </form>
+      <div class="space-y-6">
+        <div class="p-4 bg-[#F7F0E8] rounded-md">
+          <strong>Visit Us</strong>
+          <p class="text-sm text-gray-700">123 Brew Lane, Caffeine City</p>
+        </div>
+        <div class="p-4 bg-[#F7F0E8] rounded-md">
+          <strong>Phone</strong>
+          <p class="text-sm text-gray-700">(555) 555-0123</p>
+        </div>
+        <div class="p-4 bg-[#F7F0E8] rounded-md">
+          <strong>Newsletter</strong>
+          <p class="text-sm text-gray-700">Get updates on new pastries and seasonal drinks.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-[#3C2415] text-white py-6">
+    <div class="max-w-7xl mx-auto px-4 text-sm text-center">© 2025 Niyantri Cafe. All rights reserved.</div>
+  </footer>
+</body>
+</html>
